@@ -1,0 +1,83 @@
+/* .container{
+  max-width: 1700px;
+}
+@media (max-width: 768px) {
+  .col-xl-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .Abouthero-aboutus img {
+   width: 200px;
+  
+}
+  .aboutcontent1-aboutus{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+ 
+  .Abouthero-aboutus img {
+   width: 500px;
+   height: auto;
+}
+}
+.Abouthero-aboutus  img {
+  width: 500px ;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+.home_wrapper-aboutus{
+  background-color: #010135;
+  padding: 35px 0px; 
+}
+
+  .aboutcontent1-aboutus{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+.CommonBanner__CommonBannerWrapper-sduui5-0{
+  padding-top: 0px;
+}
+
+.home-text-aboutus {
+  margin-top: 120px;
+  text-align: left; 
+}
+.oursp1-aboutus{
+font-weight: 700;
+font-size: 45px;
+letter-spacing: 0.5px;
+padding-right: 10px;
+}
+.oursp2-aboutus{
+font-weight: 700;
+font-size: 45px;
+letter-spacing: 0.5px;
+color: #77b900;
+}
+
+.counter-aboutus {
+  margin-top: 30px;
+}
+
+.title_2-aboutus {
+  font-size: 36px;
+  color: #010135;
+}
+.card-text-aboutus{
+  color: #010135;
+}
+
+.aboutUs__LeaderWrapper-nc23hc-0 p {
+  margin-bottom: 20px;
+}
+.bgcards{
+  background-color: #FFFFFF;
+}
+
+
+
+ */

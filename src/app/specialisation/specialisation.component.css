@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Specialisation_cont {
+    min-height: 100vh;
+    padding-inline: 70px;
+    padding-block: 20px;
+}
+.Specialisation {
+    max-width: 1700px;   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 93vh;
+}
+.Specialisation_heading > h1 {
+    font-size: 35px !important;
+    padding-bottom: 20px;
+}
+.Specialisation_sub_main {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+.Specialisation_sub_cont {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+}
+.Specialisation_sub_cont1 {
+    display: flex;
+    flex: 1;
+    align-items: center; 
+}
+.title {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title_card{
+    color: white;
+}
+.title_card1_img_cont {
+    width: 40%;
+}
+.title_card1_img_cont img {
+    width: 100%;
+}
+.title_card2_img_cont {
+    width: 70%;
+}
+.title_card2_img_cont img {
+    width: 100%;
+}
+.image {
+    width: 90%;
+}
+.image1 {
+    width: 90%;
+    margin-left: auto;
+}
+.image_para_cont {
+    text-align: left;
+    background-color: #FFFFFF;
+}
+.image_para_cont1 {
+    text-align: right;
+    background-color: #FFFFFF;
+}
+.title_cont1,
+.title_cont2,
+.title_cont3 {
+    background-color: #010135;
+}
+
+
+/* media */
+
+@media screen and (max-width:768px) {
+    .card_content_first,
+    .card_content_third {
+        flex-direction: column-reverse; 
+        box-shadow: 0px 0px 3px black;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    .card_content_second {
+        flex-direction: column;
+        box-shadow: 0px 0px 3px black;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    .Specialisation_sub_cont {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .Specialisation_sub_cont1 {
+        border-radius: 6px;
+    }
+    .title{
+        width: 90%;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        padding-block: 20px;
+    }
+    .title_card{
+        color: white;
+        padding-block: 40px;
+    }
+    .title_card1{
+        padding-block: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .image {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-block: 20px;
+    }
+    .image1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-block: 20px;
+    }
+  
+    .Specialisation_cont {
+        padding-inline: 30px;
+    }  
+}

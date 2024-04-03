@@ -1,0 +1,43 @@
+/* @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100%) translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) translateX(0);
+    }
+  }
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100%) translateX(100%);
+    }
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 10px; 
+    z-index: 999;
+    animation: slideIn 0.5s ease forwards;
+    background-color: #77b900;
+    color: #ffffff;
+    font-size: 20px;
+   
+    
+  }
+  .back-to-top:hover{
+    background-color: #ffffff;
+    color: #010135;
+    border-color: #010135;
+  }
+  
+  .back-to-top.hidden:hover {
+    animation: slideOut 0.5s ease forwards;
+  }
+   */

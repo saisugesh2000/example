@@ -1,0 +1,65 @@
+
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  
+    <nav >
+        <!-- Theme Mode -->
+    <div  [class.dark-mode]="themeService.isDarkMode">
+        <div class="wrapper">
+          <!-- <div class="logo"><a href="#"><img src="https://s3-alpha-sig.figma.com/img/0d13/38b1/51608de8c9b119fa5fcfc056577dc6d7?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VCR-FYLW4UYGXj~TO4YvsuO7S10G4mkmvoDYZ9an7qh8U1oIjvc1E1nE4hn8beG9jyxaUSLiNN1EcF-~373V4VzDdKyjHegZ~DnAwgI5rCIku6~BbuMmYxMOSQ8TVnoLXUK~PlJr9m~AgCRFuFxgJTr4sMrf2wJ-HWQxpvPSzoBbaXcEChYxSgRWxN7AppBAry58Hdp-nUlbYCsSmZDt5polZOglRozY2Kej2977DnxjKIf~ed8YrT08oMPuH2ODXFD5C9h2Bm7WFbe~niC3BzwdoXf3qRf9ccd~K1r8gC6B-FHFYYPbIBopHHVEla3i0~JyMY~axkZRewI36iUlvw__" alt="logo" height="130px" width="230px"></a></div> -->
+          <!-- <span class="RIDHI">RIDHI</span><span class="TEK">TEK</span> -->
+          <img src="/assets/IMAGES/LOGO.png" alt="logo" height="130px" width="230px" routerLink="">
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fa-solid fa-xmark"></i></label>
+            <!-- <li><a routerLink="/" >Home</a></li> -->
+            <li>
+              <!-- <a  class="desktop-item" routerLink="/Services">Services</a> -->
+              <!-- <input type="checkbox" id="showDrop1"> -->
+              <!-- <label for="showDrop1" class="mobile-item">Services<i class="fa-solid fa-angle-down" style="padding-left:5px;"></i></label> -->
+              <ul class="drop-menu">
+                <!-- <li><a routerLink="/payments">Payments</a></li> -->
+                <!-- <li><a routerLink="/lendings">Lendings</a></li> -->
+                <!-- <li><a routerLink="/cards">Cards</a></li> -->
+                <!-- <li><a routerLink="/digitalization">Digitalization</a></li> -->
+                <!-- <li><a routerLink="/application">App Development</a></li> -->
+                <!-- <li><a routerLink="/wavemaker">Domains</a></li> -->
+               
+               
+              </ul>
+            </li>
+            <!-- <li>
+                <a href="#" class="desktop-item">DOMAINS</a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">DOMAINS<i class="fa-solid fa-angle-down" style="padding-left:5px;"></i></label>
+                <ul class="drop-menu">
+                  <li><a routerLink="/payments">PAYMENTS</a></li>
+                  <li><a routerLink="/cards">CARDS</a></li>
+                 
+                </ul>
+              </li> -->
+            
+              <li><a routerLink="/scrollabout">About</a></li>
+              <li class="scroll-to-section"><a routerLink="/Contact_Us">Contact</a></li>   
+              <!-- <li class="moonDark"  *ngIf="isDarkTheme" (click)="toggleTheme()"> -->
+                <!-- [ngClass]="{'rotate': isDarkTheme}" -->
+                <!-- <i class="fa-solid fa-moon"></i>
+              </li> -->
+              <!-- <li class="sunLight" [ngClass]="{'rotate': !isDarkTheme}" *ngIf="!isDarkTheme" (click)="toggleTheme()">
+                <i class="fa-solid fa-sun"></i>
+              </li>         -->
+            
+          </ul>
+          
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+      </div>
+      </nav>
+   
+  
+      
+
+

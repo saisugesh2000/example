@@ -1,0 +1,157 @@
+/* .container{
+  max-width: 1700px;
+}
+
+.container1-contactus{
+  padding: 45px 90px 0px 0px;
+  margin-top: 160px;
+
+}
+
+.Inpad{
+    padding: 10px;
+    border-color: #77b900;
+}
+.formradius{
+   padding: 0px 0px 0px 0px;
+   margin-top: 90px;
+
+}
+.secondformradius{
+    border-radius:50px 0px 50px 50px;
+    border: 1px solid #77b900;
+    padding: 30px 0px 30px 0px;
+ 
+   
+}
+.InpadSVG{
+    border-color: #77b900;
+    background-color: #77b900;
+    color: #FFFFFF;
+}
+.Inpade,.Inpadc{
+    border-color: #77b900 #77b900 #77b900 #77b900;
+    padding: 10px;
+}
+.Inpad::placeholder,.Inpade::placeholder,.Inpadc::placeholder{
+    color: #010135;
+}
+.contactus_button-contactus{
+    background-color: #77b900;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #000000;
+}
+.contactus_button-contactus:hover{
+    background-color: #5e9900;
+    color: #ffffff;
+}
+ .Inpad:focus,.Inpadc:focus,.Inpade:focus{
+    box-shadow: rgba(116,180,1,0.35) 0px 5px 15px;
+}
+.contus1{
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+}
+.contus2,.contus3{
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    line-height: 48px;
+}
+.contus4{
+  color: #777777;
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 10px 0px;
+  line-height: 30px;
+  margin-top: 20px;
+letter-spacing: 0.5px;
+}
+.contusnuem i{
+  padding-right: 10px;
+  font-size: 13px;
+  color: #77b900;
+}
+.contusnuemt i{
+  padding-right: 10px;
+}
+.fa-microphone{
+  font-size: 16px;
+  color: #77b900;
+}
+.contusnuem,.contusnuemt{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contactussection{
+  margin-left: 55px;
+  margin-right: 70px;
+}
+@media (max-width: 768px) {
+    .contactussection {
+      height: auto; 
+      margin-left: 30px;
+      margin-right: 70px;
+      margin-bottom: 30px;
+}
+    .contus1 {
+      font-size: 24px;
+    }
+    .contus2,
+    .contus3 {
+      font-size: 28px;
+    }
+    .contus4 {
+      font-size: 16px; 
+    }
+    .formradius {
+      padding-top: 0; 
+
+    }
+    .secondformradius {
+      border-radius: 25px;
+      width: 100%;
+    }
+    .Inpad,
+    .Inpadc,
+    .Inpade {
+      padding: 10px; 
+      font-size: 14px; 
+    }
+    .contactus_button {
+      border-radius: 20px; 
+      font-size: 16px; 
+      padding: 10px 20px;
+    }
+    .btnwid{
+        width: 100%;
+    }
+
+    .container1-contactus{
+     text-align: left;
+     padding: 0px;
+   
+    }
+  }
+  @media (max-width:1040px){
+    .container1-contactus{
+      padding: 0px 0px 0px 0px;
+    }
+    .formradius{
+      padding: 0px;
+   }
+  }
+
+
+
+
+
+   */

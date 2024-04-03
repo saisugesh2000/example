@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Specialisation_cont{
+    min-height: 100vh;
+    padding-inline: 70px;
+}
+.Specialisation {
+    max-width: 1700px;   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-block: 20px;
+}
+.row {
+    flex: 1;
+    height: 33.3%;
+}
+
+.card_content_first,
+.card_content_second,
+.card_content_third {
+    display: flex;
+}
+.col {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+}
+
+.Specialisation >.row >.image_para_cont >.image >p{
+    width: 90%;
+}
+.Specialisation >.row >.image_para_cont1 >.image >p,h1:nth-child(even){
+    width: 90%;
+   margin-left: auto;
+}
+.image {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.image_para_cont{
+   text-align: left;
+}
+
+.image_para_cont1{
+   text-align: right;
+}
+.title_cont{
+    background-color: #010135;
+}
+.title {
+    width: 60%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.title_card1 {
+    width: 30%;
+    margin: auto;
+    color: white;
+}
+
+.title_card1 img {
+    width: 100%;
+}
+.title_card2 {
+    width: 30%;
+    margin: auto;
+    color: white;
+}
+
+.title_card2 img {
+    width: 100%;
+}
+
+
+/* media */
+
+
+
+
+@media screen and (max-width:768px) {
+    .card_content_first,
+    .card_content_third {
+        flex-direction: column; 
+    }
+    .card_content_second{
+        flex-direction: column-reverse;
+    }
+   
+    .Specialisation_cont{
+        padding-inline: 30px;
+    }
+    .title_card1 {
+        width: 50%;
+    }
+    .title_card2 {
+        width: 50%;
+    }
+    .title_cont{
+       padding-block: 50px;
+    }
+    .image_para_cont{
+        padding-block: 20px;
+     }
+     
+     .image_para_cont1{
+        padding-block: 20px;
+     }
+
+     
+}
+    </style>
+</head>
+
+<body>
+
+    <section class="Specialisation_cont" style="background-color: red;">
+        <div class="Specialisation">
+            <div class="row card_content_first">
+                <div class="col image_para_cont">
+                    <div class="image">
+                        <h1>Vision Plus</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col title_cont">
+                    <div class="title">
+                        <h1>VisionPLUS®</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row card_content_second">
+                <div class="col title_cont">
+                    <div class="title_card1">
+                        <h1>Postilion</h1>
+                        <img src="https://s3-alpha-sig.figma.com/img/57e1/ae21/52a63b868272735555da24619c6eea85?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i4b7Z~Jg~q-nYQy-~Bax2yJQQHUMQdVpU6PFE6dKJM2AZejWmIvT5ENEvqhXBOdWDU~~p~kM3lNPZIo7WduOZzNgXl-DRcfyYtnNXf9TXkHWKmGt-flKmOUq5uctNC2ovsm~r6m5Xq4CufWpMzPDQfsFsph1rKrAo8DyrBOo2epT8i8grlOeH0a5hNoThyupG0NKIIadsD8C6k7V7y5iNDPovDxAQfGm3VIPgd1KwBj75iUJrpEso~FS~thiNgk7Js5-t6syDC5BM1t17O9~HqzvlrUq1j6X6UDA0wDcyVqgHP4sEllNbmPwSt48Bx45mVyk0RuJBMI8kCBC2M0uaQ__"
+                            alt="capture png">
+                    </div>
+                </div>
+                <div class="col image_para_cont1 ">
+                    <div class="image">
+                        <h1>Vision Plus</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row card_content_third">
+                <div class="col image_para_cont">
+                    <div class="image">
+                        <h1>Vision Plus</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col title_cont">
+                    <div class="title_card2">
+                        <img src="https://s3-alpha-sig.figma.com/img/b23b/e3e2/35f8b60fa96866118b0f08af6ead7cc7?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BzR3oBZZaggVNwWQFJBd9gUhCI91dezvdT39PjDrKB~73bcKmjGWPe17v2B6~fstBZdZgtRoZBlvG1trSTdPnKm0uHyg222OjGdhgTJEuuR5jDJTFh5bLOeePy5YUCYxIC2D18nbMoza-JHPfWE5nZn~1SAcMQmVKE8BS~4-OkbLP3KJxFYGY1oqxcmV0foO6uRKozPk3O2p50A4a6O7Rcc9X~cRtoUQ0iQI18GnWvRfbEcl1jN9~TsULLxpAMpnT6hx3FUxWFIJ9PdQY9w~h2bpDr-3UvOri4raFAmbT6RMYgglKI1sjPxqtFQ3CHqcGqBHfC9jK5~phf~Zc-bwWA__"
+                            alt="wavemaker png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

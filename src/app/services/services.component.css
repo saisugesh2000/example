@@ -1,0 +1,98 @@
+/* 
+.container{
+    max-width: 1700px;
+}
+.mainservice{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    background-color: red;
+    border-bottom:1px solid #77b900;
+    
+    
+}
+.container1service{
+    background: #010135;
+    width: 30%;
+    padding: 70px 70px 70px 70px;
+   
+  
+  
+}
+.container2service{
+    width: 70%;
+    background-color: #010135;
+    position: relative;
+    padding-bottom: 40px;
+    
+    
+  
+    
+}
+.servi1{
+    color: #77b900;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 36px;  
+}
+.servi2,.servi3{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+.servi4{
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding: 10px 0px;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+.buttonserviservice{
+    background-color: #77b900;
+    color: #000000;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 100px;
+}
+.buttonserviservice:hover{
+    background-color: #5e9900;
+    color: #FFFFFF;
+}
+.container1service .PLC{
+    display: none;
+}
+@media(max-width:768px){
+    .container1service{
+      padding: 70px 40px 70px 40px;
+     
+}
+}
+@media(max-width:1150px){
+    .mainservice{
+        flex-direction: column;
+       
+    }
+    .container1service{
+        width: 100%;
+        padding-bottom: 0px;
+      }
+    .container2service{
+        width: 100%;
+  }
+  .buttonserviservice{
+    margin-top:30px;
+  }
+    
+    
+} */

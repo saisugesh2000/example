@@ -1,0 +1,146 @@
+/* 
+  
+
+  .section-application {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #010135;
+            
+  
+
+  }
+  
+  
+  .left-content-application {
+    flex: 0 0 50%; 
+   padding: 70px 20px 0px 70px;
+   
+   
+  }
+  .left-content-application h1{
+    color: #77b900;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  .left-content-application h3{
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+  .left-content-application p{
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding: 10px 0px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+
+  .right-image-application {
+    flex: 0 0 50%; 
+    padding: 60px 0px 20px 0px ; 
+    max-width: 40%; 
+    margin: 0 auto;
+    
+   
+  }
+  .Appoverview-application{
+    padding: 70px 70px 40px 70px;
+  }
+  .Appoverview-application h1{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  .Appoverview-application p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #777777;
+    text-align: justify;
+    
+  }
+  .applicationknowmore-application{
+    background-color: #77b900;
+    border: none;
+    color: #000000;
+    padding: 10px 30px;
+    font-size: 1rem;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .application3cards-application{
+    padding: 0px 70px 70px 70px;
+  }
+  .application3cards-application .ourappser-application{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 70px;
+  }
+  .application3cards-application .app_box-application .icon-application img{
+    background-color: #77b900;
+    padding: 25px;
+    border-radius: 50%;
+  }
+  .application3cards-application .app_box-application {
+    text-align: center;
+  }
+  .application3cards-application .app_box-application h6{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+  }
+  .application3cards-application .app_box-application p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #777777;
+    padding-top: 10px;
+    
+  }
+  .application3cards-application .app_box-application a{
+    text-decoration: none;
+   
+  }
+  .application3cards-application p {
+    color: #010135;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .section-application{
+        display: flex;
+        flex-direction: column;
+        height: none;  
+        
+    }
+    .left-content-application, .right-image-application {
+      flex: 100%; 
+      
+      
+    
+    }
+    .left-content-application{
+        padding: 70px 20px 0px 40px;
+    }
+    .right-image-application {
+      margin-top: 20px; 
+      max-width: 70%; 
+     }
+     .Appoverview-application{
+        padding: 70px 40px 70px 40px;
+      }
+      .application3cards-application{
+        padding: 0px 30px 70px 30px;
+      }
+      .app_box-application{
+        padding-top: 40px;
+      }
+      .application3cards-application .ourappser-application{
+        padding-bottom: 20px;
+      }
+  } */

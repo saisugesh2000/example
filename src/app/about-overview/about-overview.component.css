@@ -1,0 +1,54 @@
+/* .container{
+  max-width: 1700px;
+}
+.containerOverviewAbout-aboutOverview {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+  .leftOverviewAbout-aboutOverview {
+    flex: 1;
+    padding: 20px;
+   
+  }
+
+  .rightOverviewAbout-aboutOverview {
+    flex: 1;
+    padding: 20px;
+  
+  }
+
+  .leftOverviewAbout-aboutOverview img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .rightOverviewAbout-aboutOverview p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 20px;
+    text-align: justify;
+
+  }
+  .rightOverviewAbout-aboutOverview h2{
+    font-size:30px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 20px;
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    .containerOverviewAbout-aboutOverview {
+      flex-direction: column;
+    }
+
+   .leftOverviewAbout-aboutOverview img {
+      width: 100%;
+    }
+    .rightOverviewAbout-aboutOverview{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  } */
